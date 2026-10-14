@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Meet Morrow, the calm, considered workspace that brings your team's projects, people, and best ideas together."
+    />
+    <meta name="theme-color" content="#f8f8f5" />
+    <title>Morrow — Make room for good work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Morrow home">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+          morrow
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation">
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#product">Product</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#stories">Stories</a>
+          <a class="nav-login" href="#get-started">Log in</a>
+          <a class="button button-dark nav-cta" href="#get-started">Start for free <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="home">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> A better kind of workspace</div>
+          <h1>Make room<br />for <span>good work.</span></h1>
+          <p class="hero-description">
+            Less busywork, more of the work you love. Morrow brings your team, projects, and ideas together in one wonderfully clear place.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#get-started">Get started for free <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#product"><span class="play-icon" aria-hidden="true">▶</span> Take a quick tour</a>
+          </div>
+          <div class="hero-proof">
+            <div class="avatar-stack" aria-hidden="true">
+              <span class="avatar avatar-one">J</span><span class="avatar avatar-two">A</span><span class="avatar avatar-three">M</span><span class="avatar avatar-four">S</span>
+            </div>
+            <p>Loved by <strong>12,000+</strong> teams<br /><span>★★★★★ <span class="proof-note">4.9/5 from happy humans</span></span></p>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Preview of the Morrow workspace">
+          <div class="sun-shape"></div>
+          <div class="floating-note note-top"><span class="note-icon note-lime">✳</span><span>Big ideas, <strong>in motion.</strong></span></div>
+          <div class="app-window">
+            <aside class="app-sidebar">
+              <div class="app-logo"><span class="mini-mark">m</span> morrow</div>
+              <div class="workspace-label">WORKSPACE <span>⌄</span></div>
+              <div class="side-item active"><span>▦</span> Overview</div>
+              <div class="side-item"><span>◷</span> My work <b class="side-count">4</b></div>
+              <div class="side-item"><span>▤</span> Projects</div>
+              <div class="side-item"><span>♧</span> People</div>
+              <div class="workspace-label side-spacer">YOUR PROJECTS <span>＋</span></div>
+              <div class="project-item"><i class="project-dot dot-peach"></i> Brand refresh</div>
+              <div class="project-item"><i class="project-dot dot-blue"></i> Summer launch</div>
+              <div class="project-item"><i class="project-dot dot-violet"></i> Website v2</div>
+              <div class="sidebar-person"><span class="avatar avatar-two">A</span><span>Alex Morgan<small>Free plan</small></span><span class="person-more">···</span></div>
+            </aside>
+            <div class="app-main">
+              <div class="app-topbar"><span>Tuesday, October 14, 2026</span><div class="topbar-actions"><span class="topbar-search">⌕ <small>Search anything</small></span><span class="notification-icon">♧<i></i></span><span class="avatar avatar-two topbar-avatar">A</span></div></div>
+              <div class="dashboard-content">
+                <div class="greeting-row"><div><div class="hello-kicker">YOUR TUESDAY, AT A GLANCE</div><h2>Good morning, Alex <span>✳</span></h2><p>Here's what's moving with your team today.</p></div><button class="new-task">＋ <span>New task</span></button></div>
+                <div class="stat-grid">
+                  <div class="stat-card"><div class="stat-label">In progress <span>↗</span></div><div class="stat-number">12</div><div class="stat-foot"><span class="tiny-bars"><i></i><i></i><i></i><i></i><i></i><i></i></span> 3 more than last week</div></div>
+                  <div class="stat-card"><div class="stat-label">Completed <span>↗</span></div><div class="stat-number">28</div><div class="stat-foot"><span class="stat-green">↑ 18%</span> from last week</div></div>
+                  <div class="stat-card"><div class="stat-label">Team capacity <span>↗</span></div><div class="capacity-number">78<span>%</span></div><div class="capacity-track"><i></i></div><div class="stat-foot">Looking good this week</div></div>
+                </div>
+                <div class="task-panel">
+                  <div class="panel-heading"><div><h3>Things in motion</h3><p>A little progress adds up.</p></div><a href="#product">View all <span>↗</span></a></div>
+                  <div class="task-table-head"><span>TASK NAME</span><span>PROJECT</span><span>OWNER</span><span>STATUS</span></div>
+                  <div class="task-row"><span class="task-name"><i class="check-empty"></i> Finalize homepage copy</span><span class="project-pill"><i class="project-dot dot-peach"></i> Brand refresh</span><span class="avatar avatar-one task-avatar">J</span><span class="status-pill status-progress">In progress</span></div>
+                  <div class="task-row"><span class="task-name"><i class="check-empty"></i> Send the moodboard around</span><span class="project-pill"><i class="project-dot dot-blue"></i> Summer launch</span><span class="avatar avatar-three task-avatar">M</span><span class="status-pill status-review">In review</span></div>
+                  <div class="task-row"><span class="task-name"><i class="check-empty"></i> Gather launch-day photos</span><span class="project-pill"><i class="project-dot dot-violet"></i> Website v2</span><span class="avatar avatar-four task-avatar">S</span><span class="status-pill status-progress">In progress</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-note note-bottom"><span class="note-icon note-peach">↗</span><span>Look at you, <strong>making progress.</strong></span></div>
+          <div class="visual-caption">ONE HAPPY PLACE FOR YOUR TEAM <span>✳</span></div>
+        </div>
+      </section>
+
+      <section class="trusted container" aria-label="Trusted by teams at">
+        <p>A LITTLE BETTER, TOGETHER WITH TEAMS AT</p>
+        <div class="logo-row"><span class="wordmark wordmark-serif">Goodwell</span><span class="wordmark wordmark-wide">KINFIELD</span><span class="wordmark wordmark-bold">papier<span class="logo-period">.</span></span><span class="wordmark wordmark-spaced">sunroom</span><span class="wordmark wordmark-serif">The Common</span></div>
+      </section>
+
+      <section class="features-section" id="product">
+        <div class="container">
+          <div class="section-heading">
+            <div class="eyebrow"><span class="eyebrow-dot"></span> A breath of fresh air</div>
+            <h2>Everything clicks<br />when it's <span>all together.</span></h2>
+            <p>Your best work doesn't happen in a hundred different tabs. Bring the moving pieces into focus, and see what your team can do.</p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card feature-card-projects">
+              <div class="feature-art project-art">
+                <div class="art-calendar"><div class="art-calendar-top"><span>YOUR WEEK</span><b>OCT 12 — 18</b></div><div class="calendar-days"><span>MON<strong>12</strong></span><span>TUE<strong>13</strong></span><span class="today">WED<strong>14</strong></span><span>THU<strong>15</strong></span><span>FRI<strong>16</strong></span></div><div class="calendar-event event-one">Website wireframes <small>09:30</small></div><div class="calendar-event event-two">Team catch-up <small>13:00</small></div><div class="calendar-event event-three">Launch moodboard <small>15:30</small></div></div>
+                <span class="art-sticker">ONE THING<br />AT A TIME ↗</span>
+              </div>
+              <div class="feature-copy"><span class="feature-number">01 / PROJECTS</span><h3>The whole picture.<br />And every little detail.</h3><p>Bring plans, tasks, and timelines together. Everyone knows what's next, and why it matters.</p><a href="#how-it-works" class="feature-link">Explore projects <span>↗</span></a></div>
+            </article>
+            <article class="feature-card feature-card-team">
+              <div class="feature-art people-art">
+                <div class="people-note"><div class="people-note-header"><span>YOUR PEOPLE</span><span>↗</span></div><div class="people-entry"><span class="avatar avatar-one">J</span><span><b>Jamie Chen</b><small>Design · 3 tasks</small></span><i class="availability available"></i></div><div class="people-entry"><span class="avatar avatar-two">A</span><span><b>Alex Morgan</b><small>Marketing · 5 tasks</small></span><i class="availability available"></i></div><div class="people-entry"><span class="avatar avatar-three">M</span><span><b>Micah Lewis</b><small>Product · 2 tasks</small></span><i class="availability busy"></i></div><div class="people-entry"><span class="avatar avatar-four">S</span><span><b>Sam Rivera</b><small>Engineering · 4 tasks</small></span><i class="availability available"></i></div></div><div class="orbit-circle">A GOOD<br />TEAM IS<br /><strong>EVERYTHING.</strong></div>
+              </div>
+              <div class="feature-copy"><span class="feature-number">02 / PEOPLE</span><h3>Less “who's on that?”<br />More “we've got this.”</h3><p>Know who's doing what and how everyone is feeling, without another status meeting.</p><a href="#how-it-works" class="feature-link">Meet your team <span>↗</span></a></div>
+            </article>
+            <article class="feature-card feature-card-insights">
+              <div class="feature-art insight-art">
+                <div class="insight-card"><div class="insight-top"><span>TEAM MOMENTUM</span><span class="insight-period">THIS MONTH⌄</span></div><div class="insight-score">Looking good <span>↗</span></div><div class="insight-sub">Your team finished 18% more this month</div><div class="graph-area"><div class="graph-labels"><span>24</span><span>18</span><span>12</span><span>6</span></div><div class="graph"><div class="graph-lines"><i></i><i></i><i></i><i></i></div><svg viewBox="0 0 330 100" preserveAspectRatio="none" role="img" aria-label="A rising graph showing weekly team progress"><path class="graph-fill" d="M0 78 C24 69 29 68 50 72 S86 49 107 58 S143 39 165 48 S194 27 220 40 S256 14 275 25 S311 13 330 5 V100 H0Z"></path><path class="graph-stroke" d="M0 78 C24 69 29 68 50 72 S86 49 107 58 S143 39 165 48 S194 27 220 40 S256 14 275 25 S311 13 330 5"></path></svg><div class="graph-months"><span>SEP 1</span><span>SEP 8</span><span>SEP 15</span><span>SEP 22</span><span>SEP 30</span></div></div></div><div class="insight-bottom"><span>Completed this month</span><strong>126 tasks</strong></div></div><span class="sparkle sparkle-one">✳</span><span class="sparkle sparkle-two">✳</span>
+              </div>
+              <div class="feature-copy"><span class="feature-number">03 / MOMENTUM</span><h3>See the progress.<br />Feel the good energy.</h3><p>Celebrate the small wins and catch the blockers early. No spreadsheets or guesswork required.</p><a href="#how-it-works" class="feature-link">See your momentum <span>↗</span></a></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote-section" id="stories">
+        <div class="quote-mark">“</div>
+        <blockquote>Morrow gave us something we<br class="desktop-break" /> didn't realize we were missing: <span>room to think.</span></blockquote>
+        <div class="quote-person"><span class="avatar avatar-five">L</span><p><strong>Leah Park</strong><span>Co-founder, Goodwell Studio</span></p></div>
+        <div class="quote-decoration" aria-hidden="true">✳</div>
+      </section>
+
+      <section class="how-section container" id="how-it-works">
+        <div class="how-intro"><div class="eyebrow"><span class="eyebrow-dot"></span> Easy does it</div><h2>Good work<br />should feel <span>good.</span></h2><p>Getting started shouldn't be a project of its own. Morrow is simple from the very first click.</p><a class="button button-dark" href="#get-started">Find your flow <span aria-hidden="true">↗</span></a></div>
+        <div class="how-steps"><article class="how-step"><span class="step-icon step-icon-lime">✳</span><div><span class="step-label">01 — MAKE YOURSELF AT HOME</span><h3>Bring your people in.</h3><p>Invite your team and gather around a shared home for work. A fresh start, without the fuss.</p></div><span class="step-arrow">↗</span></article><article class="how-step"><span class="step-icon step-icon-peach">↗</span><div><span class="step-label">02 — CLEAR THE CLUTTER</span><h3>Find your focus.</h3><p>Put your projects, priorities, and brilliant ideas somewhere everyone can find them.</p></div><span class="step-arrow">↗</span></article><article class="how-step"><span class="step-icon step-icon-blue">♡</span><div><span class="step-label">03 — DO YOUR BEST THING</span><h3>Make good things happen.</h3><p>Get a little more breathing room back in your day. Turns out, that's where the good stuff starts.</p></div><span class="step-arrow">↗</span></article></div>
+      </section>
+
+      <section class="pricing-section" id="pricing">
+        <div class="container">
+          <div class="pricing-heading">
+            <div class="eyebrow"><span class="eyebrow-dot"></span> Simple, honest pricing</div>
+            <h2>More good work.<br /><span>Less number crunching.</span></h2>
+            <p>Start free, find your flow, and only pay when it feels right.</p>
+            <div class="billing-toggle" role="group" aria-label="Choose a billing period">
+              <button class="billing-option is-selected" type="button" data-billing="monthly" aria-pressed="true">Monthly</button>
+              <button class="billing-option" type="button" data-billing="yearly" aria-pressed="false">Yearly <span class="billing-savings">Save 25%</span></button>
+            </div>
+          </div>
+          <div class="pricing-grid">
+            <article class="pricing-card">
+              <span class="plan-label">A GOOD PLACE TO START</span>
+              <h3>Free</h3>
+              <p class="plan-description">For a small team finding its feet.</p>
+              <div class="plan-price"><span class="price-currency">$</span><span class="price-value" data-monthly="0" data-yearly="0" aria-live="polite" aria-atomic="true">0</span><span class="price-period">/ forever</span></div>
+              <p class="billing-caption">Free, always. No card required.</p>
+              <a class="button button-light" href="#get-started">Get started <span aria-hidden="true">↗</span></a>
+              <ul class="plan-features"><li><span>✓</span> Up to 3 teammates</li><li><span>✓</span> Unlimited projects</li><li><span>✓</span> A lovely, clear overview</li></ul>
+            </article>
+            <article class="pricing-card pricing-card-featured">
+              <span class="popular-badge">A TEAM FAVORITE</span>
+              <span class="plan-label">ROOM TO DO YOUR THING</span>
+              <h3>Team</h3>
+              <p class="plan-description">For teams ready to find their rhythm.</p>
+              <div class="plan-price"><span class="price-currency">$</span><span class="price-value" data-monthly="12" data-yearly="9" aria-live="polite" aria-atomic="true">12</span><span class="price-period">/ person / month</span></div>
+              <p class="billing-caption" aria-live="polite">Billed monthly</p>
+              <a class="button button-dark" href="#get-started">Try Team free <span aria-hidden="true">↗</span></a>
+              <ul class="plan-features"><li><span>✓</span> Everything in Free</li><li><span>✓</span> Unlimited teammates</li><li><span>✓</span> Team insights & timelines</li></ul>
+            </article>
+            <article class="pricing-card">
+              <span class="plan-label">MADE FOR BIGGER IDEAS</span>
+              <h3>Studio</h3>
+              <p class="plan-description">For growing teams, doing big things.</p>
+              <div class="plan-price"><span class="price-currency">$</span><span class="price-value" data-monthly="24" data-yearly="18" aria-live="polite" aria-atomic="true">24</span><span class="price-period">/ person / month</span></div>
+              <p class="billing-caption" aria-live="polite">Billed monthly</p>
+              <a class="button button-light" href="#get-started">Try Studio free <span aria-hidden="true">↗</span></a>
+              <ul class="plan-features"><li><span>✓</span> Everything in Team</li><li><span>✓</span> Thoughtful admin controls</li><li><span>✓</span> A real human to help</li></ul>
+            </article>
+          </div>
+          <p class="pricing-footnote">Prices shown in USD per person. <span>✳</span> No surprise fees, ever.</p>
+        </div>
+      </section>
+
+      <section class="cta-section container" id="get-started">
+        <div class="cta-sparkle cta-sparkle-left">✳</div><div class="cta-sparkle cta-sparkle-right">✳</div>
+        <div class="eyebrow cta-eyebrow"><span class="eyebrow-dot"></span> A little space changes everything</div>
+        <h2>Ready for a<br /><span>better Monday?</span></h2>
+        <p>Join 12,000+ thoughtful teams doing their best work with Morrow.</p>
+        <a class="button button-dark cta-button" href="mailto:hello@morrow.example?subject=Let's%20get%20started">Start your free workspace <span aria-hidden="true">↗</span></a>
+        <div class="cta-reassurance"><span>✓</span> Free forever for small teams <span class="reassurance-divider">·</span> No credit card needed</div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <div class="footer-main"><div><a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span> morrow</a><p>Make a little more room<br />for the good stuff.</p></div><div class="footer-links"><div><span>THE GOOD STUFF</span><a href="#product">Product</a><a href="#how-it-works">How it works</a><a href="#pricing">Pricing</a><a href="#stories">Customer stories</a></div><div><span>THE DETAILS</span><a href="mailto:hello@morrow.example">Say hello</a><a href="#get-started">Get started</a><a href="mailto:hello@morrow.example?subject=Privacy">Privacy & terms</a></div></div></div>
+      <div class="footer-bottom"><span>© <span id="current-year">2026</span> Morrow Studio. Made with a little optimism.</span><a href="#home">Back to the good stuff ↑</a></div>
+    </footer>
+  </body>
+</html>
